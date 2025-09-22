@@ -16,5 +16,22 @@ namespace congcu
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            string username = txtusername.Text.Trim();
+            string password = txtpassword.Text.Trim();
+
+            if (username == "admin" && password == "admin")
+            {
+                Form2 frm2 = new Form2();
+                frm2.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!");
+            }
+        }
     }
 }
