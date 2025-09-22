@@ -42,7 +42,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(107, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 16);
+            this.label1.Size = new System.Drawing.Size(121, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên Đăng Nhập";
             // 
@@ -65,17 +65,24 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(107, 136);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.Size = new System.Drawing.Size(77, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "mật Khẩu";
+            // 
+            // txtpassword
+            // 
+            this.txtpassword.Location = new System.Drawing.Point(328, 136);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(100, 26);
+            this.txtpassword.TabIndex = 5;
             // 
             // btnlogin
             // 
             this.btnlogin.Location = new System.Drawing.Point(315, 233);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(85, 31);
+            this.btnlogin.Size = new System.Drawing.Size(131, 31);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "Login";
+            this.btnlogin.Text = "Đăng Nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
